@@ -5,8 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script>
+        // 1
+         document.getElementById("el").style.color = "red"; 
+    /*
+     This code will not work because its trying to style the the element with the id of 'el' before its created in the DOM tree 
+   */
+       </script>
+       <script>
+        // Code Two
+         window.onload = function () {
+           document.getElementById("el").style.color = "red";
+         };
+   
+   /*
+   this script will work because its waiting for the page to be loaded using the 'window.onload' function that ensures all the dom elements are exist on the page before applying the style to them 
+   
+   
+   */
+       </script>
 </head>
 <body>
     <script src="app.js"></script>
+    <script>
+        // Code Three
+        document.getElementById("el").style.color = "green";
+  /*
+  this code will work because its place after the element has been created in this case after the 'h1' element  
+  
+  */
+      </script>
 </body>
 </html>
