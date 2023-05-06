@@ -60,3 +60,24 @@ document.write("Iam In Page");
 
 //! Lessons 10 to 17 Assignments
 
+let numberOne = '10';
+let numberTwo = '20';
+console.log(numberOne,numberTwo)
+console.log(`${numberOne}${numberTwo}`)
+console.log(numberOne  + '\n'+ numberTwo)
+console.log(`${numberOne}
+${numberTwo}`)
+
+//*******/
+// console.log(Elzero.innerHTML); // object
+// console.log(typeof Elzero); // object
+//*******/
+
+console.log("I'm In\n\\\\\nLove \\\\ \\\"\\\"\\\" \\'\\'\\' ++ With ++ \\\\\\\"\\\"\\\"\\\"\n\\\"JavaScript\\\"``");
+//****/
+
+
+let a = 21;
+let b = 20;
+
+console.log('_'+a+'_'+b+a+'_'+b+a+'_'+b+a+'_'+b+'_'); // _21_2021_2021_2021_20_
