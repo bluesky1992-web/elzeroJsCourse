@@ -81,3 +81,40 @@ let a = 21;
 let b = 20;
 
 console.log('_'+a+'_'+b+a+'_'+b+a+'_'+b+a+'_'+b+'_'); // _21_2021_2021_2021_20_
+
+//! Lessons 17 to 22 Assignments
+
+// Replace ? With Arithmetic Operators
+
+console.log((-10 + +20) / (+15 - +3) * (190 - +10) / 400); // 0.375
+
+
+/*
+
+.Use the variable's value to get the required result in five different ways.
+.You can use everything you have learned before to achieve the required result.
+.It is not allowed to use any numbers at all, and you can use Boolean values.
+.Each method must be completely different from the others.
+.The required result is the number 6.
+
+*/
+
+let num = 3;
+
+// Solution One
+console.log(num + num); // 6
+
+// Solution Two
+console.log( ++num + ++num - ++num); // 6
+
+// Solution Three
+console.log("Write Your Code Here"); // 6
+
+// Solution Four
+console.log("Write Your Code Here"); // 6
+
+// Solution Five
+console.log("Write Your Code Here"); // 6
+
+// Solution Six
+console.log("Write Your Code Here"); // 6
