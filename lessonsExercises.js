@@ -105,16 +105,42 @@ let num = 3;
 console.log(num + num); // 6
 
 // Solution Two
-console.log( ++num + ++num - ++num); // 6
+console.log( num + num + --num - num ); // 6
 
 // Solution Three
-console.log("Write Your Code Here"); // 6
+console.log((num++ + --num) + +num); // 6
 
 // Solution Four
-console.log("Write Your Code Here"); // 6
+console.log(num - --num  + ++num + ++num); // 6
 
 // Solution Five
-console.log("Write Your Code Here"); // 6
+console.log(num * 2); // 6
 
 // Solution Six
-console.log("Write Your Code Here"); // 6
+console.log(num**2 - num); // 6
+
+
+/*
+
+Use the value of the variable to obtain the required result in five different ways.
+You can use everything you have learned before to achieve the required result.
+It is not allowed to use any numbers at all.
+Each method must be completely different from the others.
+The required result is the number 20.
+The resulting number must be in the form of a number and not a string.
+
+*/
+
+let number = "10";
+
+// Solution One
+console.log(+number + +number); // 20
+
+// Solution Two
+console.log("Write Your Code Here"); // 20
+
+// Solution Three
+console.log("Write Your Code Here"); // 20
+
+// Solution Four
+console.log("Write Your Code Here"); // 20
